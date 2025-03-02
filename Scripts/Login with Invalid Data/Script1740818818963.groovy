@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\LENOVO\\Downloads\\com.eraspace.app_4_apps.evozi.com (1).apk', true)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.EditText - Masukkan no. handphone atau emailmu (1)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Masukkan no. handphone atau emailmu (1)'), 'invalidemail@gmail.com', 
+    0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.EditText - Masukkan passwordmu'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.EditText - Masukkan passwordmu (1)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText - Masukkan passwordmu (1)'), 'invalid_password', 
+    0)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/android.widget.TextView - Email belum terdaftar'))
+
+Mobile.closeApplication()
+
