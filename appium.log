@@ -1,0 +1,267 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.16.2
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m52136[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:52136/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://192.168.100.84:52136/wd/hub
+	http://127.0.0.1:52136/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@4.1.0 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\LENOVO\\Downloads\\com.eraspace.app_4_apps.evozi.com (1).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 15)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":52151,"appium:udid":"emulator-5554","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\LENOVO\\Downloads\\com.eraspace.app_4_apps.evozi.com (1).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 15)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":52151,"appium:udid":"emulator-5554"}}[39m
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\LENOVO\.appium\node_modules\appium-uiautomator2-driver
+[38;5;46m[AppiumDriver@6c83][0m Appium v2.16.2 creating new AndroidUiautomator2Driver (v4.1.0) session
+[38;5;46m[AppiumDriver@6c83][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;46m[AppiumDriver@6c83][0m Appium's BaseDriver version is 9.16.2
+[38;5;46m[AppiumDriver@6c83][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.2
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Session created with session id: 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\LENOVO\.katalon\tools\android_sdk' (newest first):
+[38;5;112m[9a5b6449][0m[38;5;229m[ADB][0m     C:\Users\LENOVO\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;112m[9a5b6449][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\LENOVO\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Retrieving device list
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Using device: emulator-5554
+[38;5;112m[9a5b6449][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\LENOVO\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;112m[9a5b6449][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\LENOVO\Downloads\com.eraspace.app_4_apps.evozi.com (1).apk'
+[38;5;112m[9a5b6449][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Relaxing hidden api policy
+[38;5;112m[9a5b6449][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\LENOVO\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;112m[9a5b6449][0m[38;5;229m[ADB][0m Package name: 'com.eraspace.app'
+[38;5;112m[9a5b6449][0m[38;5;229m[ADB][0m Main activity name: 'com.eraspace.app.modules.splashscreen.SplashScreenActivity'
+[38;5;112m[9a5b6449][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from 'C:\Users\LENOVO\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Server packages are not going to be (re)installed
+[38;5;112m[9a5b6449][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;112m[9a5b6449][0m[38;5;229m[ADB][0m 'C:\Users\LENOVO\Downloads\com.eraspace.app_4_apps.evozi.com (1).apk' is signed with a non-default certificate
+[38;5;112m[9a5b6449][0m[38;5;229m[ADB][0m The application at 'C:\Users\LENOVO\Downloads\com.eraspace.app_4_apps.evozi.com (1).apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;112m[9a5b6449][0m[38;5;229m[ADB][0m The installation of 'com.eraspace.app_4_apps.evozi.com (1).apk' took 1347ms
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Starting UIAutomator2 server 7.2.3
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Using UIAutomator2 server from 'C:\Users\LENOVO\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.2.3.apk' and test from 'C:\Users\LENOVO\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m socket hang up
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m socket hang up
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m socket hang up
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Determined the downstream protocol as 'W3C'
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Screen already unlocked, doing nothing
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Starting 'com.eraspace.app/com.eraspace.app.modules.splashscreen.SplashScreenActivity' and waiting for 'com.eraspace.app/com.eraspace.app.modules.splashscreen.SplashScreenActivity'
+[38;5;112m[9a5b6449][0m[38;5;46m[AppiumDriver@6c83][0m New AndroidUiautomator2Driver session created successfully, session 9a5b6449-155e-4eeb-8573-121f645ea5c5 added to master session list
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m7005 ms - 1335[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m0 ms - 111[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/timeouts [39m[32m200[39m [90m2 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m454 ms - 6380[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m337 ms - 104520[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m89 ms - 64693[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m412 ms - 693688[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m293 ms - 91172[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m491 ms - 1342272[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect [39m[32m200[39m [90m8 ms - 50[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements[39m [90m{"value":"//*[@class = 'android.widget.Button' and (@text = 'Masuk' or . = 'Masuk') and @resource-id = 'com.eraspace.app.home:id/btnLogin']","using":"xpath"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements [39m[32m200[39m [90m558 ms - 139[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0064-ffff-ffff00000176/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0064-ffff-ffff00000176/rect [39m[32m200[39m [90m208 ms - 103[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0064-ffff-ffff00000176/click[39m [90m{"id":"00000000-0000-0064-ffff-ffff00000176"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0064-ffff-ffff00000176/click [39m[32m200[39m [90m79 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m1158 ms - 22945[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m239 ms - 118644[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect [39m[32m200[39m [90m6 ms - 50[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements[39m [90m{"value":"//*[@class = 'android.widget.EditText' and (@text = 'Masukkan no. handphone atau emailmu' or . = 'Masukkan no. handphone atau emailmu') and @resource-id = 'com.eraspace.app.membership:id/edtPhoneOrEmail']","using":"xpath"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements [39m[32m200[39m [90m46 ms - 139[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/rect [39m[32m200[39m [90m11 ms - 102[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/click[39m [90m{"id":"00000000-0000-0067-ffff-ffff000002f9"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/click [39m[32m200[39m [90m1288 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m24 ms - 22276[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m247 ms - 155144[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect [39m[32m200[39m [90m6 ms - 50[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements[39m [90m{"value":"//*[@class = 'android.widget.EditText' and (@text = 'Masukkan no. handphone atau emailmu' or . = 'Masukkan no. handphone atau emailmu') and @resource-id = 'com.eraspace.app.membership:id/edtPhoneOrEmail']","using":"xpath"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements [39m[32m200[39m [90m50 ms - 139[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/rect [39m[32m200[39m [90m11 ms - 102[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/clear[39m [90m{"id":"00000000-0000-0067-ffff-ffff000002f9"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/clear [39m[32m200[39m [90m21 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/click[39m [90m{"id":"00000000-0000-0067-ffff-ffff000002f9"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/click [39m[32m200[39m [90m1204 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/value[39m [90m{"text":"rendygalihsaputra529@gmail.com","value":["r","e","n","d","y","g","a","l","i","h","s","a","p","u","t","r","a","5","2","9","@","g","m","a","i","l",".","c","o","m"],"id":"00000000-0000-0067-ffff-ffff000002f9"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/value [39m[32m200[39m [90m667 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m107 ms - 22272[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m290 ms - 162264[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect [39m[32m200[39m [90m6 ms - 50[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements[39m [90m{"value":"//*[@class = 'android.widget.EditText' and (@text = 'Masukkan passwordmu' or . = 'Masukkan passwordmu') and @resource-id = 'com.eraspace.app.membership:id/edtPassword']","using":"xpath"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements [39m[32m200[39m [90m47 ms - 139[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/rect [39m[32m200[39m [90m12 ms - 102[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/click[39m [90m{"id":"00000000-0000-0067-ffff-ffff00000305"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/click [39m[32m200[39m [90m690 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m32 ms - 24423[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m328 ms - 213468[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect [39m[32m200[39m [90m5 ms - 50[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements[39m [90m{"value":"//*[@class = 'android.widget.EditText' and (@text = 'rendygalihsaputra529@gmail.com' or . = 'rendygalihsaputra529@gmail.com') and @resource-id = 'com.eraspace.app.membership:id/edtPhoneOrEmail']","using":"xpath"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements [39m[32m200[39m [90m37 ms - 139[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/rect [39m[32m200[39m [90m9 ms - 102[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/click[39m [90m{"id":"00000000-0000-0067-ffff-ffff000002f9"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/click [39m[32m200[39m [90m1589 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m26 ms - 24423[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m240 ms - 170260[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect [39m[32m200[39m [90m5 ms - 50[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements[39m [90m{"value":"//*[@class = 'android.widget.EditText' and (@text = 'rendygalihsaputra529@gmail.com' or . = 'rendygalihsaputra529@gmail.com') and @resource-id = 'com.eraspace.app.membership:id/edtPhoneOrEmail']","using":"xpath"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements [39m[32m200[39m [90m44 ms - 139[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/rect [39m[32m200[39m [90m13 ms - 102[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/clear[39m [90m{"id":"00000000-0000-0067-ffff-ffff000002f9"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/clear [39m[32m200[39m [90m18 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/click[39m [90m{"id":"00000000-0000-0067-ffff-ffff000002f9"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/click [39m[32m200[39m [90m1196 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/value[39m [90m{"text":"081911846016","value":["0","8","1","9","1","1","8","4","6","0","1","6"],"id":"00000000-0000-0067-ffff-ffff000002f9"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff000002f9/value [39m[32m200[39m [90m35 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m105 ms - 22254[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m288 ms - 153420[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect [39m[32m200[39m [90m6 ms - 50[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements[39m [90m{"value":"//*[@class = 'android.widget.EditText' and (@text = 'Masukkan passwordmu' or . = 'Masukkan passwordmu') and @resource-id = 'com.eraspace.app.membership:id/edtPassword']","using":"xpath"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements [39m[32m200[39m [90m35 ms - 139[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/rect [39m[32m200[39m [90m10 ms - 102[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/click[39m [90m{"id":"00000000-0000-0067-ffff-ffff00000305"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/click [39m[32m200[39m [90m927 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m22 ms - 22253[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m313 ms - 203360[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect [39m[32m200[39m [90m5 ms - 50[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements[39m [90m{"value":"//*[@class = 'android.widget.EditText' and (@text = 'Masukkan passwordmu' or . = 'Masukkan passwordmu') and @resource-id = 'com.eraspace.app.membership:id/edtPassword']","using":"xpath"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements [39m[32m200[39m [90m33 ms - 139[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/rect [39m[32m200[39m [90m11 ms - 102[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/clear[39m [90m{"id":"00000000-0000-0067-ffff-ffff00000305"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/clear [39m[32m200[39m [90m16 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/click[39m [90m{"id":"00000000-0000-0067-ffff-ffff00000305"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/click [39m[32m200[39m [90m1160 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/value[39m [90m{"text":"Hisahide_09","value":["H","i","s","a","h","i","d","e","_","0","9"],"id":"00000000-0000-0067-ffff-ffff00000305"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff00000305/value [39m[32m200[39m [90m33 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m64 ms - 22246[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m287 ms - 195588[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/window/rect [39m[32m200[39m [90m6 ms - 50[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements[39m [90m{"value":"//*[@class = 'android.widget.Button' and (@text = 'Masuk' or . = 'Masuk') and @resource-id = 'com.eraspace.app.membership:id/btnLogin']","using":"xpath"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/elements [39m[32m200[39m [90m43 ms - 139[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff0000030f/rect[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff0000030f/rect [39m[32m200[39m [90m10 ms - 102[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff0000030f/click[39m [90m{"id":"00000000-0000-0067-ffff-ffff0000030f"}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/element/00000000-0000-0067-ffff-ffff0000030f/click [39m[32m200[39m [90m65 ms - 14[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m2752 ms - 25523[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m260 ms - 259316[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m184 ms - 96770[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m623 ms - 1504128[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m100 ms - 96770[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m506 ms - 1129236[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m95 ms - 96051[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m527 ms - 1444628[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m101 ms - 96770[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m447 ms - 1385412[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Replacing sessionId c4d9b221-31d3-4755-91dd-86cddadad150 with 9a5b6449-155e-4eeb-8573-121f645ea5c5
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/source [39m[32m200[39m [90m87 ms - 96770[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5/screenshot [39m[32m200[39m [90m439 ms - 1174704[39m [90m[39m
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5[39m [90m{}[39m
+[38;5;112m[9a5b6449][0m[38;5;46m[AppiumDriver@6c83][0m Removing session 9a5b6449-155e-4eeb-8573-121f645ea5c5 from our master session list
+[38;5;112m[9a5b6449][0m[38;5;-107m[AndroidUiautomator2Driver@5357][0m Restoring hidden api policy to the device default configuration
+[38;5;112m[9a5b6449][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/9a5b6449-155e-4eeb-8573-121f645ea5c5 [39m[32m200[39m [90m120 ms - 14[39m [90m[39m
